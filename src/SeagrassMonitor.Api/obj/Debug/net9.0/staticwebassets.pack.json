@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SeagrassMonitor.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SeagrassMonitor.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.SeagrassMonitor.Api.props",
+      "PackagePath": "build\\SeagrassMonitor.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.SeagrassMonitor.Api.props",
+      "PackagePath": "buildMultiTargeting\\SeagrassMonitor.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.SeagrassMonitor.Api.props",
+      "PackagePath": "buildTransitive\\SeagrassMonitor.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sozopol Bay — Seagrass Suitability Monitor</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-dot"></div>
+      <div>
+        <h1>Sozopol Bay Seagrass Suitability Monitor</h1>
+        <p class="subtitle">Bulgarian Black Sea • ~600 m Coastal LoRa Buoy Network • Limiting-Condition Model</p>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <div class="live-controls">
+        <span class="live-pill" id="livePill">
+          <span class="pulse-dot" id="liveDot"></span>
+          <span id="liveStatusText">LIVE</span>
+        </span>
+        <span class="mono live-clock" id="liveClock">Sim --:-- UTC • #0</span>
+        <button id="toggleLiveBtn" class="btn-mini" title="Pause or resume real-time periodic telemetry">Pause</button>
+      </div>
+      <span class="badge badge-warn" title="Using synthetic 10-min sensor telemetry and provisional 0-100 scoring bands">
+        PROVISIONAL • SYNTHETIC DATA
+      </span>
+      <div class="kpi-strip" id="kpiStrip">
+        <div class="kpi"><span class="kpi-val" id="kpiBuoys">--</span><span class="kpi-lbl">Active Buoys</span></div>
+        <div class="kpi"><span class="kpi-val" id="kpiSpacing">--</span><span class="kpi-lbl">Mean Spacing</span></div>
+        <div class="kpi"><span class="kpi-val" id="kpiHigh">--</span><span class="kpi-lbl">High Suit. Cells</span></div>
+        <div class="kpi"><span class="kpi-val" id="kpiHold">--</span><span class="kpi-lbl">Hold / Insuff.</span></div>
+        <div class="kpi"><span class="kpi-val" id="kpiLimiting">--</span><span class="kpi-lbl">Top Limiter</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="workspace">
+    <!-- Left Controls Sidebar -->
+    <aside class="panel panel-left">
+      <section class="card">
+        <h2>1. Target Species</h2>
+        <div class="segmented" id="speciesControl">
+          <button class="seg-btn active" data-value="zostera_marina">
+            <em>Z. marina</em>
+            <span>Eelgrass</span>
+          </button>
+          <button class="seg-btn" data-value="zostera_noltei">
+            <em>Z. noltei</em>
+            <span>Dwarf Eelgrass</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>2. Recovery Pathway</h2>
+        <div class="segmented" id="pathwayControl">
+          <button class="seg-btn active" data-value="assisted">
+            Assisted
+            <span>Planting / Seeding</span>
+          </button>
+          <button class="seg-btn" data-value="natural">
+            Natural
+            <span>Needs Seed Supply</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>3. Map Visualization Layer</h2>
+        <select id="layerSelect" class="select-input">
+          <option value="suitability">Suitability Score (0–100 Limiting Condition)</option>
+          <option value="par">Bottom Light (Daily Light Integral, mol/m²/d)</option>
+          <option value="do">Overnight Dissolved Oxygen Low (mg/L)</option>
+          <option value="temp">Water Temperature (°C)</option>
+          <option value="depth">Bathymetry Depth (m)</option>
+          <option value="confidence">Spatial Confidence (%)</option>
+        </select>
+
+        <div class="toggles">
+          <label class="toggle-row">
+            <input type="checkbox" id="toggleSensors" checked />
+            <span>600 m LoRa Sensor Buoys</span>
+          </label>
+          <label class="toggle-row">
+            <input type="checkbox" id="toggleMeadows" checked />
+            <span>Reference Meadows (Ref)</span>
+          </label>
+          <label class="toggle-row">
+            <input type="checkbox" id="toggleDisturbance" checked />
+            <span>Disturbance Zones (HOLD)</span>
+          </label>
+          <label class="toggle-row">
+            <input type="checkbox" id="toggleSatellite" />
+            <span>Satellite Basemap (Esri)</span>
+          </label>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>4. What-If Environmental Simulator</h2>
+        <div class="slider-group">
+          <div class="slider-header">
+            <label for="tempSlider">Summer Heatwave Offset</label>
+            <span id="tempVal" class="mono">0.0 °C</span>
+          </div>
+          <input type="range" id="tempSlider" min="-2" max="6" step="0.5" value="0" />
+        </div>
+
+        <div class="slider-group">
+          <div class="slider-header">
+            <label for="turbSlider">Turbidity / Attenuation (K<sub>d</sub>)</label>
+            <span id="turbVal" class="mono">1.0×</span>
+          </div>
+          <input type="range" id="turbSlider" min="0.6" max="2.2" step="0.1" value="1.0" />
+        </div>
+
+        <button id="resetSimBtn" class="btn btn-secondary">Reset Simulation &amp; Sensors</button>
+      </section>
+
+      <section class="card note-card">
+        <p id="calibrationNotice">Loading model metadata...</p>
+      </section>
+    </aside>
+
+    <!-- Center Map -->
+    <section class="map-container">
+      <div id="map"></div>
+      <div class="map-legend" id="mapLegend"></div>
+    </section>
+
+    <!-- Right Inspector Panel -->
+    <aside class="panel panel-right" id="inspectorPanel">
+      <div id="inspectorEmpty" class="empty-state">
+        <h3>Interactive Inspector</h3>
+        <p>Click any <strong>seabed grid cell</strong> to inspect its 0–100 limiting-condition breakdown, or click any <strong>600 m sensor buoy</strong> to inspect its 24-hour 10-minute telemetry and simulate outages.</p>
+        <div class="quick-tips">
+          <div class="tip"><strong>Try this:</strong> Switch from <em>Assisted</em> to <em>Natural Recovery</em> to see how seed supply limits distant sandy cells.</div>
+          <div class="tip"><strong>Try this:</strong> Click a buoy and toggle it <em>Offline</em> to watch confidence drop and distant cells flip to <code>INSUFFICIENT_DATA</code>.</div>
+        </div>
+      </div>
+
+      <div id="cellInspector" class="hidden"></div>
+      <div id="stationInspector" class="hidden"></div>
+    </aside>
+  </main>
+
+  <!-- Leaflet & Chart.js -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

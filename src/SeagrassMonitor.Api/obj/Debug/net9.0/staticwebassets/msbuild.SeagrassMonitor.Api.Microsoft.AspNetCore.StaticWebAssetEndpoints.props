@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/SeagrassMonitor.Api/app.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gur4y8u1pgtQoXllxwbaUqy5rghKKmbFRR5ZFbsaCl0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"24280"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gur4y8u1pgtQoXllxwbaUqy5rghKKmbFRR5ZFbsaCl0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Nov 2026 14:45:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SeagrassMonitor.Api/app.mj4mu79xws.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mj4mu79xws"},{"Name":"integrity","Value":"sha256-gur4y8u1pgtQoXllxwbaUqy5rghKKmbFRR5ZFbsaCl0="},{"Name":"label","Value":"_content/SeagrassMonitor.Api/app.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24280"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022gur4y8u1pgtQoXllxwbaUqy5rghKKmbFRR5ZFbsaCl0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Nov 2026 14:45:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SeagrassMonitor.Api/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZfgDJLaKiCZ4mhl\u002B3i6R1RCT7mfHu2uCPavCMNZxqGo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7110"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ZfgDJLaKiCZ4mhl\u002B3i6R1RCT7mfHu2uCPavCMNZxqGo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Nov 2026 14:44:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SeagrassMonitor.Api/index.lozrn9xr57.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lozrn9xr57"},{"Name":"integrity","Value":"sha256-ZfgDJLaKiCZ4mhl\u002B3i6R1RCT7mfHu2uCPavCMNZxqGo="},{"Name":"label","Value":"_content/SeagrassMonitor.Api/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7110"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ZfgDJLaKiCZ4mhl\u002B3i6R1RCT7mfHu2uCPavCMNZxqGo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Nov 2026 14:44:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SeagrassMonitor.Api/styles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tG6FUISLHdVgWRCbj\u002BitISuxIjwWmjaqmYUFJ4zmNog="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8661"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022tG6FUISLHdVgWRCbj\u002BitISuxIjwWmjaqmYUFJ4zmNog=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Nov 2026 14:44:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SeagrassMonitor.Api/styles.wdkyrueftl.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wdkyrueftl"},{"Name":"integrity","Value":"sha256-tG6FUISLHdVgWRCbj\u002BitISuxIjwWmjaqmYUFJ4zmNog="},{"Name":"label","Value":"_content/SeagrassMonitor.Api/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8661"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022tG6FUISLHdVgWRCbj\u002BitISuxIjwWmjaqmYUFJ4zmNog=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Nov 2026 14:44:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

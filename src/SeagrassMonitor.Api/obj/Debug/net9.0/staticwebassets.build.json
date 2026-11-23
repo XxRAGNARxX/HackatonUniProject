@@ -1,0 +1,1042 @@
+{
+  "Version": 1,
+  "Hash": "rbghbokF2MofWuosM4VaPahNT8o4sb/DshMK3plk6bE=",
+  "Source": "SeagrassMonitor.Api",
+  "BasePath": "_content/SeagrassMonitor.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SeagrassMonitor.Api\\wwwroot",
+      "Source": "SeagrassMonitor.Api",
+      "ContentRoot": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\",
+      "BasePath": "_content/SeagrassMonitor.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\0lhnhfxpxi-mj4mu79xws.gz",
+      "SourceId": "SeagrassMonitor.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SeagrassMonitor.Api",
+      "RelativePath": "app#[.{fingerprint=mj4mu79xws}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\app.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "st05mf2jaa",
+      "Integrity": "cOVl3/0bQ/Flt3bZivcR8bBm0mlshCbGxJ+EmZ6aWQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\app.js"
+    },
+    {
+      "Identity": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\csoblnvs99-lozrn9xr57.gz",
+      "SourceId": "SeagrassMonitor.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SeagrassMonitor.Api",
+      "RelativePath": "index#[.{fingerprint=lozrn9xr57}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pbns3y59nv",
+      "Integrity": "619G6pSUtN7hJBP05yror2UqlItDuB23aAg70xBLDFo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\zn1p5zxwpg-wdkyrueftl.gz",
+      "SourceId": "SeagrassMonitor.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SeagrassMonitor.Api",
+      "RelativePath": "styles#[.{fingerprint=wdkyrueftl}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vjq1psdr6m",
+      "Integrity": "q3W+h3z3C7VJgDf4TpNeBBW+btNHp4Rhs9XmPWMleVo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\styles.css"
+    },
+    {
+      "Identity": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\app.js",
+      "SourceId": "SeagrassMonitor.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\",
+      "BasePath": "_content/SeagrassMonitor.Api",
+      "RelativePath": "app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mj4mu79xws",
+      "Integrity": "gur4y8u1pgtQoXllxwbaUqy5rghKKmbFRR5ZFbsaCl0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\index.html",
+      "SourceId": "SeagrassMonitor.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\",
+      "BasePath": "_content/SeagrassMonitor.Api",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lozrn9xr57",
+      "Integrity": "ZfgDJLaKiCZ4mhl+3i6R1RCT7mfHu2uCPavCMNZxqGo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\styles.css",
+      "SourceId": "SeagrassMonitor.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\",
+      "BasePath": "_content/SeagrassMonitor.Api",
+      "RelativePath": "styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wdkyrueftl",
+      "Integrity": "tG6FUISLHdVgWRCbj+itISuxIjwWmjaqmYUFJ4zmNog=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.js",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\0lhnhfxpxi-mj4mu79xws.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000144154534"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6936"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cOVl3/0bQ/Flt3bZivcR8bBm0mlshCbGxJ+EmZ6aWQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:45:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gur4y8u1pgtQoXllxwbaUqy5rghKKmbFRR5ZFbsaCl0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gur4y8u1pgtQoXllxwbaUqy5rghKKmbFRR5ZFbsaCl0="
+        }
+      ]
+    },
+    {
+      "Route": "app.js",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gur4y8u1pgtQoXllxwbaUqy5rghKKmbFRR5ZFbsaCl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:45:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gur4y8u1pgtQoXllxwbaUqy5rghKKmbFRR5ZFbsaCl0="
+        }
+      ]
+    },
+    {
+      "Route": "app.js.gz",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\0lhnhfxpxi-mj4mu79xws.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cOVl3/0bQ/Flt3bZivcR8bBm0mlshCbGxJ+EmZ6aWQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:45:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cOVl3/0bQ/Flt3bZivcR8bBm0mlshCbGxJ+EmZ6aWQo="
+        }
+      ]
+    },
+    {
+      "Route": "app.mj4mu79xws.js",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\0lhnhfxpxi-mj4mu79xws.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000144154534"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6936"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cOVl3/0bQ/Flt3bZivcR8bBm0mlshCbGxJ+EmZ6aWQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:45:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gur4y8u1pgtQoXllxwbaUqy5rghKKmbFRR5ZFbsaCl0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mj4mu79xws"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gur4y8u1pgtQoXllxwbaUqy5rghKKmbFRR5ZFbsaCl0="
+        }
+      ]
+    },
+    {
+      "Route": "app.mj4mu79xws.js",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gur4y8u1pgtQoXllxwbaUqy5rghKKmbFRR5ZFbsaCl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:45:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mj4mu79xws"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gur4y8u1pgtQoXllxwbaUqy5rghKKmbFRR5ZFbsaCl0="
+        }
+      ]
+    },
+    {
+      "Route": "app.mj4mu79xws.js.gz",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\0lhnhfxpxi-mj4mu79xws.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cOVl3/0bQ/Flt3bZivcR8bBm0mlshCbGxJ+EmZ6aWQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:45:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mj4mu79xws"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cOVl3/0bQ/Flt3bZivcR8bBm0mlshCbGxJ+EmZ6aWQo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\csoblnvs99-lozrn9xr57.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000417014178"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2397"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"619G6pSUtN7hJBP05yror2UqlItDuB23aAg70xBLDFo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:44:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZfgDJLaKiCZ4mhl+3i6R1RCT7mfHu2uCPavCMNZxqGo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZfgDJLaKiCZ4mhl+3i6R1RCT7mfHu2uCPavCMNZxqGo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZfgDJLaKiCZ4mhl+3i6R1RCT7mfHu2uCPavCMNZxqGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:44:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZfgDJLaKiCZ4mhl+3i6R1RCT7mfHu2uCPavCMNZxqGo="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\csoblnvs99-lozrn9xr57.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"619G6pSUtN7hJBP05yror2UqlItDuB23aAg70xBLDFo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:44:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-619G6pSUtN7hJBP05yror2UqlItDuB23aAg70xBLDFo="
+        }
+      ]
+    },
+    {
+      "Route": "index.lozrn9xr57.html",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\csoblnvs99-lozrn9xr57.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000417014178"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2397"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"619G6pSUtN7hJBP05yror2UqlItDuB23aAg70xBLDFo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:44:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZfgDJLaKiCZ4mhl+3i6R1RCT7mfHu2uCPavCMNZxqGo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lozrn9xr57"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZfgDJLaKiCZ4mhl+3i6R1RCT7mfHu2uCPavCMNZxqGo="
+        }
+      ]
+    },
+    {
+      "Route": "index.lozrn9xr57.html",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7110"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZfgDJLaKiCZ4mhl+3i6R1RCT7mfHu2uCPavCMNZxqGo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:44:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lozrn9xr57"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZfgDJLaKiCZ4mhl+3i6R1RCT7mfHu2uCPavCMNZxqGo="
+        }
+      ]
+    },
+    {
+      "Route": "index.lozrn9xr57.html.gz",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\csoblnvs99-lozrn9xr57.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2397"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"619G6pSUtN7hJBP05yror2UqlItDuB23aAg70xBLDFo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:44:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lozrn9xr57"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-619G6pSUtN7hJBP05yror2UqlItDuB23aAg70xBLDFo="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\zn1p5zxwpg-wdkyrueftl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000476190476"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2099"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q3W+h3z3C7VJgDf4TpNeBBW+btNHp4Rhs9XmPWMleVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:44:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tG6FUISLHdVgWRCbj+itISuxIjwWmjaqmYUFJ4zmNog=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tG6FUISLHdVgWRCbj+itISuxIjwWmjaqmYUFJ4zmNog="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tG6FUISLHdVgWRCbj+itISuxIjwWmjaqmYUFJ4zmNog=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:44:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tG6FUISLHdVgWRCbj+itISuxIjwWmjaqmYUFJ4zmNog="
+        }
+      ]
+    },
+    {
+      "Route": "styles.css.gz",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\zn1p5zxwpg-wdkyrueftl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q3W+h3z3C7VJgDf4TpNeBBW+btNHp4Rhs9XmPWMleVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:44:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q3W+h3z3C7VJgDf4TpNeBBW+btNHp4Rhs9XmPWMleVo="
+        }
+      ]
+    },
+    {
+      "Route": "styles.wdkyrueftl.css",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\zn1p5zxwpg-wdkyrueftl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000476190476"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2099"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q3W+h3z3C7VJgDf4TpNeBBW+btNHp4Rhs9XmPWMleVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:44:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tG6FUISLHdVgWRCbj+itISuxIjwWmjaqmYUFJ4zmNog=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wdkyrueftl"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tG6FUISLHdVgWRCbj+itISuxIjwWmjaqmYUFJ4zmNog="
+        }
+      ]
+    },
+    {
+      "Route": "styles.wdkyrueftl.css",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tG6FUISLHdVgWRCbj+itISuxIjwWmjaqmYUFJ4zmNog=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:44:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wdkyrueftl"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tG6FUISLHdVgWRCbj+itISuxIjwWmjaqmYUFJ4zmNog="
+        }
+      ]
+    },
+    {
+      "Route": "styles.wdkyrueftl.css.gz",
+      "AssetFile": "D:\\Programing\\UniGroupProjects\\HackatonSeaMonitorng\\src\\SeagrassMonitor.Api\\obj\\Debug\\net9.0\\compressed\\zn1p5zxwpg-wdkyrueftl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q3W+h3z3C7VJgDf4TpNeBBW+btNHp4Rhs9XmPWMleVo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 22 Nov 2026 14:44:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wdkyrueftl"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q3W+h3z3C7VJgDf4TpNeBBW+btNHp4Rhs9XmPWMleVo="
+        }
+      ]
+    }
+  ]
+}
